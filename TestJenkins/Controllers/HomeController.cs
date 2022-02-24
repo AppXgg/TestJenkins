@@ -11,7 +11,7 @@ namespace TestJenkins.Controllers
 		[HttpGet]
 		public IActionResult Index()
 		{
-			string  str="HelloWord";
+			string  str="HelloWord  jenkins";
 			return   Content(str);    
 		}
 	}
